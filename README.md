@@ -1,4 +1,4 @@
-# demo
+# maven-mutilproj-sample
 
 > *Maven testing for spring boot.*
 
