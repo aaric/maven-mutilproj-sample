@@ -11,7 +11,7 @@ curl http://localhost:8080/api/v1/test/base64/0/springboot
 curl http://localhost:8080/api/v1/test/pojo/10
 
 # package
-mvn clean package
+mvn clean package -DskipTests
 #java -jar ./target/demo-0.0.1-SNAPSHOT.jar
 java -jar ./sub-backend/target/sub-backend-0.0.1-SNAPSHOT.jar
 
